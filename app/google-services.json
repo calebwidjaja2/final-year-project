@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "637991108873",
+    "firebase_url": "https://selftourismapp.firebaseio.com",
+    "project_id": "selftourismapp",
+    "storage_bucket": "selftourismapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637991108873:android:a2fe23eae1654d831993d8",
+        "android_client_info": {
+          "package_name": "com.example.selftourismapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637991108873-opkk2ckge5gb1tn2r6mi6p9m4qlq2g10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.selftourismapp",
+            "certificate_hash": "5d8d136e89510b90ad2bedd625f8575702ad456a"
+          }
+        },
+        {
+          "client_id": "637991108873-p9trtc3m1kdqnimhed0e9sn9qdnubli8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUh5xOb9ZmxbstPE_RHtK6pQljUYFswKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637991108873-p9trtc3m1kdqnimhed0e9sn9qdnubli8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
