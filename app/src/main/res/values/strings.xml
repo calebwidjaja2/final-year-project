@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">selfTourismApp</string>
+
+    <string name="navigation_Drawer_open">Open navigation drawer</string>
+    <string name="navigation_Drawer_close">Close navigation drawer</string>
 </resources>
