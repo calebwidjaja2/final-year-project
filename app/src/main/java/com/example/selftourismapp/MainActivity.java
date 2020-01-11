@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         switch (item.getItemId()){
             case R.id.nav_map:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new googlemapFragment()).commit();
+                Intent i = new Intent(this, MapsActivity.class);
+                startActivity(i);
                 break;
         }
         switch (item.getItemId()){
