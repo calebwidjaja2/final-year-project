@@ -17,6 +17,10 @@
             android:id="@+id/nav_place"
             android:icon="@drawable/ic_place"
             android:title="Place" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat"/>
     </group>
 
     <item android:title="Others">

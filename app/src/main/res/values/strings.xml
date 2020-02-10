@@ -4,4 +4,7 @@
     <string name="navigation_Drawer_open">Open navigation drawer</string>
     <string name="navigation_Drawer_close">Close navigation drawer</string>
     <string name="title_activity_maps">Map</string>
+    <string name ="chat_service">Scaledrone chat</string>
+    <string name="input_placeholder">write a message</string>
+
 </resources>

@@ -60,6 +60,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
         }
         switch (item.getItemId()){
+            case R.id.nav_chat:
+                Intent i = new Intent (this, chat_service.class);
+                startActivity(i);
+                break;
+        }
+        switch (item.getItemId()){
             case R.id.nav_logout:
                 FirebaseAuth.getInstance().signOut();
                 Intent i = new Intent (this, LoginPage.class);
