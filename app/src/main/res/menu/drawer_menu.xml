@@ -18,6 +18,10 @@
             android:icon="@drawable/ic_place"
             android:title="Place" />
         <item
+            android:id="@+id/nav_itinerary"
+            android:icon="@drawable/ic_list"
+            android:title="Itinerary"/>r
+        <item
             android:id="@+id/nav_chat"
             android:icon="@drawable/ic_chat"
             android:title="Chat"/>

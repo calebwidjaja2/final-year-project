@@ -18,7 +18,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".chat_service"></activity>
+        <activity
+            android:name=".itinerarysugesstion"
+            android:label="@string/title_activity_itinerarysugesstion"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".itinerarySuggestion"
+            android:label="@string/title_activity_itinerary_suggestion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ItineraryFragment" />
+        <activity android:name=".chat_service" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

@@ -72,6 +72,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(i);
                 finish();
         }
+        switch (item.getItemId()){
+            case R.id.nav_itinerary:
+                Intent i = new Intent(this, ItineraryFragment.class);
+                startActivity(i);
+                break;
+        }
         return true;
     }
 
