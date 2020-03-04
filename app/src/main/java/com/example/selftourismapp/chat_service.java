@@ -34,7 +34,7 @@ public class chat_service extends AppCompatActivity implements RoomListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_service);
-        editText = (EditText)findViewById(R.id.editText);
+        editText = (EditText)findViewById(R.id.messageText);
 
         messageAdapter = new usser_message_adapter(this);
         messageView= (ListView)findViewById(R.id.message_view);
@@ -74,11 +74,11 @@ public class chat_service extends AppCompatActivity implements RoomListener{
 
 
     }
-    public void sendMessage(View view){
+    public void sendMessage(View view) {
         String message = editText.getText().toString();
-        if(message.length() > 0){
-            scaledrone.publish("observeable-room", message);
-            editText.getText().clear();
+        if (message.length() > 0) {
+            scaledrone.publish(roomName, message);
+//            editText.getText().clear();
         }
     }
 
